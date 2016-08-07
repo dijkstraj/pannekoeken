@@ -1,0 +1,181 @@
+var paths = [];
+var path = [];
+var gridSize = 18
+function moveTo(x, y) { path = [[x * gridSize, y * gridSize]]; }
+function move(dx, dy) { path.push([path[path.length - 1][0] + dx * gridSize, path[path.length - 1][1] + dy * gridSize]); }
+function left(blocks) { move(-(blocks || 1), 0); }
+function right(blocks) { move(blocks || 1, 0); }
+function up(blocks) { move(0, -(blocks || 1)); }
+function down(blocks) { move(0, blocks || 1); }
+
+// warming up
+moveTo(1,1);
+right(2);
+paths.push(path);
+
+// crown
+moveTo(12,6);
+left(3);
+up(2);
+right();
+down();
+right();
+up();
+right(2);
+down();
+right();
+up();
+right();
+down(2);
+left(3);
+paths.push(path);
+
+// eye
+moveTo(12,8);
+down(2);
+right();
+up(2);
+paths.push(path);
+moveTo(12.5,10);
+up(2);
+paths.push(path);
+
+// hair
+moveTo(9,6);
+left();
+down();
+left();
+down();
+right();
+down();
+right();
+down();
+right();
+up();
+right();
+up();
+right(3);
+down();
+right();
+down(2);
+right()
+up(2);
+right();
+down(4);
+left(2);
+down(2);
+left();
+down();
+right();
+up();
+right();
+down();
+right();
+down(3);
+left();
+down(2);
+right(2);
+up();
+right();
+up(5);
+left();
+up(7);
+left();
+up();
+left();
+up();
+left();
+paths.push(path);
+moveTo(9,15);
+down();
+left();
+down(2);
+paths.push(path);
+
+// face
+moveTo(9,10);
+left();
+down();
+right();
+down();
+left();
+down(2);
+right();
+down();
+right(2);
+paths.push(path);
+
+// mouth
+moveTo(12,12);
+left(2.5);
+down(2);
+right(1.5);
+up();
+right();
+up();
+paths.push(path);
+
+// arm
+moveTo(16,17);
+left(2);
+down();
+left(4);
+up();
+left();
+down();
+left(2);
+down();
+right();
+down();
+right(7);
+up();
+right();
+up(2);
+paths.push(path);
+
+// dress neck
+moveTo(10,17);
+up();
+right();
+up();
+right();
+down();
+left();
+down();
+right(2);
+up();
+right();
+paths.push(path);
+
+// dress
+moveTo(9,20);
+down();
+left();
+down();
+left();
+down(2);
+left();
+down(3);
+right(13);
+up(5);
+left();
+up();
+left();
+paths.push(path);
+
+// dress pattern
+moveTo(6, 25);
+right(4);
+up();
+right(6);
+down();
+right(3);
+paths.push(path);
+moveTo(11, 27);
+up();
+right(4);
+down();
+paths.push(path);
+
+
+JSON.stringify(paths.map(function(path) { return ['Path',{applyMatrix: true, pivot: [0,0], data: {color: 0, isPolygonal: true}, segments: path, strokeColor: [1, 0.91765, 0.49412], strokeWidth: 5, strokeCap: 'round', miterLimit: 1}]; }));
