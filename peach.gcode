@@ -1,10 +1,10 @@
 ;PancakePainter v1.2.0-beta GCODE header start
-;Originally generated @ Sun Aug 07 2016 23:31:33 GMT+0200 (CEST)
+;Originally generated @ Mon Aug 08 2016 23:11:39 GMT+0200 (CEST)
 ;Settings used to generate this file:
 ;----------------------------------------
 ;botSpeed: 4620
 ;flattenResolution: 15
-;lineEndPreShutoff: 20
+;lineEndPreShutoff: 5
 ;startWait: 450
 ;endWait: 250
 ;shadeChangeWait: 35
@@ -25,246 +25,236 @@ M84 ;Motors off
 G00 X1 Y1 ;Help homing
 G28 X0 Y0 ;Home All Axis
 ;PancakePainter header complete
-;Starting path #1/13, segments: 2, length: 36, color #1
-G00 X48.343 Y6.343
+;Starting path #1/12, segments: 2, length: 50, color #1
+G00 X50.809 Y11.452
 M106 ;Pump on
 G4 P450 ;Pause for 450 milliseconds
 ;Nearing path end, moving to preshutoff position
-G00 X53.98 Y6.343
+G00 X66.666 Y11.452
 M107 ;Pump off
-G00 X61.028 Y6.343
+G00 X68.427 Y11.452
 G4 P250 ;Pause for 250 milliseconds
-;Completed path #1/13 on color #1
-;Starting path #2/13, segments: 44, length: 1188, color #1
-G00 X99.083 Y38.056
+;Completed path #1/12 on color #1
+;Starting path #2/12, segments: 44, length: 1650, color #1
+G00 X86.046 Y20.261
 M106 ;Pump on
 G4 P450 ;Pause for 450 milliseconds
-G00 X92.741 Y38.056
-G00 X92.741 Y44.398
-G00 X86.398 Y44.398
-G00 X86.398 Y50.741
-G00 X92.741 Y50.741
-G00 X92.741 Y57.083
-G00 X99.083 Y57.083
-G00 X99.083 Y63.426
-G00 X105.426 Y63.426
-G00 X105.426 Y57.083
-G00 X111.768 Y57.083
-G00 X111.768 Y50.741
-G00 X130.796 Y50.741
-G00 X130.796 Y57.083
-G00 X137.139 Y57.083
-G00 X137.139 Y69.769
-G00 X143.481 Y69.769
-G00 X143.481 Y57.083
-G00 X149.824 Y57.083
-G00 X149.824 Y82.454
-G00 X137.139 Y82.454
-G00 X137.139 Y95.139
-G00 X130.796 Y95.139
-G00 X130.796 Y101.482
-G00 X137.139 Y101.482
-G00 X137.139 Y95.139
-G00 X143.481 Y95.139
-G00 X143.481 Y101.482
-G00 X149.824 Y101.482
-G00 X149.824 Y120.51
-G00 X143.481 Y120.51
-G00 X143.481 Y133.195
-G00 X156.166 Y133.195
-G00 X156.166 Y126.852
-G00 X162.509 Y126.852
-G00 X162.509 Y95.139
-G00 X156.166 Y95.139
-G00 X156.166 Y50.741
-G00 X149.824 Y50.741
-G00 X149.824 Y44.398
-G00 X143.481 Y44.398
+G00 X77.237 Y20.261
+G00 X77.237 Y29.07
+G00 X68.427 Y29.07
+G00 X68.427 Y37.879
+G00 X77.237 Y37.879
+G00 X77.237 Y46.689
+G00 X86.046 Y46.689
+G00 X86.046 Y55.498
+G00 X94.855 Y55.498
+G00 X94.855 Y46.689
+G00 X103.664 Y46.689
+G00 X103.664 Y37.879
+G00 X130.091 Y37.879
+G00 X130.091 Y46.689
+G00 X138.9 Y46.689
+G00 X138.9 Y64.307
+G00 X147.71 Y64.307
+G00 X147.71 Y46.689
+G00 X156.519 Y46.689
+G00 X156.519 Y81.925
+G00 X138.9 Y81.925
+G00 X138.9 Y99.544
+G00 X130.091 Y99.544
+G00 X130.091 Y108.353
+G00 X138.9 Y108.353
+G00 X138.9 Y99.544
+G00 X147.71 Y99.544
+G00 X147.71 Y108.353
+G00 X156.519 Y108.353
+G00 X156.519 Y134.78
+G00 X147.71 Y134.78
+G00 X147.71 Y152.399
+G00 X165.328 Y152.399
+G00 X165.328 Y143.59
+G00 X174.137 Y143.59
+G00 X174.137 Y99.544
+G00 X165.328 Y99.544
+G00 X165.328 Y37.879
+G00 X156.519 Y37.879
+G00 X156.519 Y29.07
+G00 X147.71 Y29.07
+G00 X147.71 Y20.261
 ;Nearing path end, moving to preshutoff position
-G00 X143.481 Y38.76
+G00 X140.662 Y20.261
 M107 ;Pump off
-G00 X143.481 Y38.056
-G00 X137.139 Y38.056
+G00 X138.9 Y20.261
 G4 P250 ;Pause for 250 milliseconds
-;Completed path #2/13 on color #1
-;Starting path #3/13, segments: 4, length: 90, color #1
-G00 X124.453 Y50.741
+;Completed path #2/12 on color #1
+;Starting path #3/12, segments: 4, length: 125, color #1
+G00 X121.282 Y37.879
 M106 ;Pump on
 G4 P450 ;Pause for 450 milliseconds
-G00 X124.453 Y63.426
-G00 X118.111 Y63.426
+G00 X121.282 Y55.498
+G00 X112.473 Y55.498
 ;Nearing path end, moving to preshutoff position
-G00 X118.111 Y57.788
+G00 X112.473 Y39.641
 M107 ;Pump off
-G00 X118.111 Y50.741
+G00 X112.473 Y37.879
 G4 P250 ;Pause for 250 milliseconds
-;Completed path #3/13 on color #1
-;Starting path #4/13, segments: 2, length: 36, color #1
-G00 X121.282 Y50.741
+;Completed path #3/12 on color #1
+;Starting path #4/12, segments: 14, length: 500, color #1
+G00 X112.473 Y20.261
 M106 ;Pump on
 G4 P450 ;Pause for 450 milliseconds
+G00 X86.046 Y20.261
+G00 X86.046 Y2.643
+G00 X94.855 Y2.643
+G00 X94.855 Y11.452
+G00 X103.664 Y11.452
+G00 X103.664 Y2.643
+G00 X121.282 Y2.643
+G00 X121.282 Y11.452
+G00 X130.091 Y11.452
+G00 X130.091 Y2.643
+G00 X138.9 Y2.643
+G00 X138.9 Y20.261
 ;Nearing path end, moving to preshutoff position
-G00 X121.282 Y56.379
+G00 X114.235 Y20.261
 M107 ;Pump off
-G00 X121.282 Y63.426
+G00 X112.473 Y20.261
 G4 P250 ;Pause for 250 milliseconds
-;Completed path #4/13 on color #1
-;Starting path #5/13, segments: 7, length: 162, color #1
-G00 X118.111 Y76.111
+;Completed path #4/12 on color #1
+;Starting path #5/12, segments: 10, length: 275, color #1
+G00 X86.046 Y55.498
 M106 ;Pump on
 G4 P450 ;Pause for 450 milliseconds
-G00 X102.254 Y76.111
-G00 X102.254 Y88.797
-G00 X111.768 Y88.797
-G00 X111.768 Y82.454
+G00 X77.237 Y55.498
+G00 X77.237 Y64.307
+G00 X86.046 Y64.307
+G00 X86.046 Y73.116
+G00 X77.237 Y73.116
+G00 X77.237 Y90.735
+G00 X86.046 Y90.735
+G00 X86.046 Y99.544
 ;Nearing path end, moving to preshutoff position
-G00 X117.406 Y82.454
+G00 X101.902 Y99.544
 M107 ;Pump off
-G00 X118.111 Y82.454
-G00 X118.111 Y76.111
+G00 X103.664 Y99.544
 G4 P250 ;Pause for 250 milliseconds
-;Completed path #5/13 on color #1
-;Starting path #6/13, segments: 10, length: 198, color #1
-G00 X111.768 Y95.139
+;Completed path #5/12 on color #1
+;Starting path #6/12, segments: 4, length: 100, color #1
+G00 X86.046 Y99.544
 M106 ;Pump on
 G4 P450 ;Pause for 450 milliseconds
-G00 X99.083 Y95.139
-G00 X99.083 Y88.797
-G00 X92.741 Y88.797
-G00 X92.741 Y76.111
-G00 X99.083 Y76.111
-G00 X99.083 Y69.769
-G00 X92.741 Y69.769
+G00 X86.046 Y108.353
+G00 X77.237 Y108.353
 ;Nearing path end, moving to preshutoff position
-G00 X92.741 Y64.131
+G00 X77.237 Y124.209
 M107 ;Pump off
-G00 X92.741 Y63.426
-G00 X99.083 Y63.426
+G00 X77.237 Y125.971
 G4 P250 ;Pause for 250 milliseconds
-;Completed path #6/13 on color #1
-;Starting path #7/13, segments: 14, length: 360, color #1
-G00 X118.111 Y38.056
+;Completed path #6/12 on color #1
+;Starting path #7/12, segments: 11, length: 275, color #1
+G00 X94.855 Y117.162
 M106 ;Pump on
 G4 P450 ;Pause for 450 milliseconds
-G00 X99.083 Y38.056
-G00 X99.083 Y25.37
-G00 X105.426 Y25.37
-G00 X105.426 Y31.713
-G00 X111.768 Y31.713
-G00 X111.768 Y25.37
-G00 X124.453 Y25.37
-G00 X124.453 Y31.713
-G00 X130.796 Y31.713
-G00 X130.796 Y25.37
-G00 X137.139 Y25.37
-G00 X137.139 Y38.056
+G00 X94.855 Y108.353
+G00 X103.664 Y108.353
+G00 X103.664 Y99.544
+G00 X112.473 Y99.544
+G00 X112.473 Y108.353
+G00 X103.664 Y108.353
+G00 X103.664 Y117.162
+G00 X121.282 Y117.162
+G00 X121.282 Y108.353
 ;Nearing path end, moving to preshutoff position
-G00 X125.158 Y38.056
+G00 X128.329 Y108.353
 M107 ;Pump off
-G00 X118.111 Y38.056
+G00 X130.091 Y108.353
 G4 P250 ;Pause for 250 milliseconds
-;Completed path #7/13 on color #1
-;Starting path #8/13, segments: 4, length: 72, color #1
-G00 X99.083 Y95.139
+;Completed path #7/12 on color #1
+;Starting path #8/12, segments: 15, length: 650, color #1
+G00 X147.71 Y117.162
 M106 ;Pump on
 G4 P450 ;Pause for 450 milliseconds
-G00 X99.083 Y101.482
-G00 X92.741 Y101.482
+G00 X130.091 Y117.162
+G00 X130.091 Y125.971
+G00 X94.855 Y125.971
+G00 X94.855 Y117.162
+G00 X86.046 Y117.162
+G00 X86.046 Y125.971
+G00 X68.427 Y125.971
+G00 X68.427 Y134.78
+G00 X77.237 Y134.78
+G00 X77.237 Y143.59
+G00 X138.9 Y143.59
+G00 X138.9 Y134.78
+G00 X147.71 Y134.78
 ;Nearing path end, moving to preshutoff position
-G00 X92.741 Y107.12
+G00 X147.71 Y118.924
 M107 ;Pump off
-G00 X92.741 Y114.167
+G00 X147.71 Y117.162
 G4 P250 ;Pause for 250 milliseconds
-;Completed path #8/13 on color #1
-;Starting path #9/13, segments: 11, length: 198, color #1
-G00 X105.426 Y107.824
+;Completed path #8/12 on color #1
+;Starting path #9/12, segments: 13, length: 775, color #1
+G00 X156.519 Y152.399
 M106 ;Pump on
 G4 P450 ;Pause for 450 milliseconds
-G00 X105.426 Y101.482
-G00 X111.768 Y101.482
-G00 X111.768 Y95.139
-G00 X118.111 Y95.139
-G00 X118.111 Y101.482
-G00 X111.768 Y101.482
-G00 X111.768 Y107.824
-G00 X124.453 Y107.824
+G00 X165.328 Y152.399
+G00 X165.328 Y161.208
+G00 X174.137 Y161.208
+G00 X174.137 Y205.254
+G00 X59.618 Y205.254
+G00 X59.618 Y178.826
+G00 X68.427 Y178.826
+G00 X68.427 Y161.208
+G00 X77.237 Y161.208
+G00 X77.237 Y152.399
+G00 X86.046 Y152.399
 ;Nearing path end, moving to preshutoff position
-G00 X124.453 Y102.186
+G00 X86.046 Y145.351
 M107 ;Pump off
-G00 X124.453 Y101.482
-G00 X130.796 Y101.482
+G00 X86.046 Y143.59
 G4 P250 ;Pause for 250 milliseconds
-;Completed path #9/13 on color #1
-;Starting path #10/13, segments: 15, length: 468, color #1
-G00 X143.481 Y107.824
+;Completed path #9/12 on color #1
+;Starting path #10/12, segments: 6, length: 375, color #1
+G00 X59.618 Y187.635
 M106 ;Pump on
 G4 P450 ;Pause for 450 milliseconds
-G00 X130.796 Y107.824
-G00 X130.796 Y114.167
-G00 X105.426 Y114.167
-G00 X105.426 Y107.824
-G00 X99.083 Y107.824
-G00 X99.083 Y114.167
-G00 X86.398 Y114.167
-G00 X86.398 Y120.51
-G00 X92.741 Y120.51
-G00 X92.741 Y126.852
-G00 X137.139 Y126.852
-G00 X137.139 Y120.51
-G00 X143.481 Y120.51
+G00 X94.855 Y187.635
+G00 X94.855 Y178.826
+G00 X147.71 Y178.826
+G00 X147.71 Y187.635
 ;Nearing path end, moving to preshutoff position
-G00 X143.481 Y114.872
+G00 X172.375 Y187.635
 M107 ;Pump off
-G00 X143.481 Y107.824
+G00 X174.137 Y187.635
 G4 P250 ;Pause for 250 milliseconds
-;Completed path #10/13 on color #1
-;Starting path #11/13, segments: 13, length: 558, color #1
-G00 X149.824 Y133.195
+;Completed path #10/12 on color #1
+;Starting path #11/12, segments: 4, length: 150, color #1
+G00 X138.9 Y205.254
 M106 ;Pump on
 G4 P450 ;Pause for 450 milliseconds
-G00 X156.166 Y133.195
-G00 X156.166 Y139.537
-G00 X162.509 Y139.537
-G00 X162.509 Y171.25
-G00 X80.055 Y171.25
-G00 X80.055 Y152.223
-G00 X86.398 Y152.223
-G00 X86.398 Y139.537
-G00 X92.741 Y139.537
-G00 X92.741 Y133.195
+G00 X138.9 Y196.445
+G00 X103.664 Y196.445
 ;Nearing path end, moving to preshutoff position
-G00 X98.378 Y133.195
+G00 X103.664 Y203.492
 M107 ;Pump off
-G00 X99.083 Y133.195
-G00 X99.083 Y126.852
+G00 X103.664 Y205.254
 G4 P250 ;Pause for 250 milliseconds
-;Completed path #11/13 on color #1
-;Starting path #12/13, segments: 6, length: 270, color #1
-G00 X80.055 Y158.565
+;Completed path #11/12 on color #1
+;Starting path #12/12, segments: 7, length: 225, color #1
+G00 X112.473 Y73.116
 M106 ;Pump on
 G4 P450 ;Pause for 450 milliseconds
-G00 X105.426 Y158.565
-G00 X105.426 Y152.223
-G00 X143.481 Y152.223
-G00 X143.481 Y158.565
+G00 X90.45 Y73.116
+G00 X90.45 Y90.735
+G00 X103.664 Y90.735
+G00 X103.664 Y81.925
+G00 X112.473 Y81.925
 ;Nearing path end, moving to preshutoff position
-G00 X155.462 Y158.565
+G00 X112.473 Y74.878
 M107 ;Pump off
-G00 X162.509 Y158.565
+G00 X112.473 Y73.116
 G4 P250 ;Pause for 250 milliseconds
-;Completed path #12/13 on color #1
-;Starting path #13/13, segments: 4, length: 108, color #1
-G00 X137.139 Y171.25
-M106 ;Pump on
-G4 P450 ;Pause for 450 milliseconds
-G00 X137.139 Y164.908
-;Nearing path end, moving to preshutoff position
-G00 X112.473 Y164.908
-M107 ;Pump off
-G00 X111.768 Y164.908
-G00 X111.768 Y171.25
-G4 P250 ;Pause for 250 milliseconds
-;Completed path #13/13 on color #1
+;Completed path #12/12 on color #1
 ;PancakePainter Footer Start
 G4 P1000 ;Pause for 1000 milliseconds
 G00 X1 Y1 ;Help homing
